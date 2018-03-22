@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddClientIDToOpenIDConnectProvider&k=1:
+  /?Action=AddClientIDToOpenIDConnectProvider:
     get:
       summary: ' Add Client I D To Open I D Connect Provider '
       description: |-
