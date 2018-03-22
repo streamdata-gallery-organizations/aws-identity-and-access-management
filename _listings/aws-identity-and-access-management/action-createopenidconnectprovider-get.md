@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateOpenIDConnectProvider&k=1:
+  /?Action=CreateOpenIDConnectProvider:
     get:
       summary: ' Create Open I D Connect Provider '
       description: Creates an IAM entity to describe an identity provider (IdP) that
