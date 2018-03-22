@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteServiceSpecificCredential&k=1:
+  /?Action=DeleteServiceSpecificCredential:
     get:
       summary: ' Delete Service Specific Credential '
       description: Deletes the specified service-specific credential
