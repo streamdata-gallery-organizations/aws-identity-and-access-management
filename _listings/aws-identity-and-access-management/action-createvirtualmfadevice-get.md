@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVirtualMFADevice&k=1:
+  /?Action=CreateVirtualMFADevice:
     get:
       summary: ' Create Virtual M F A Device '
       description: Creates a new virtual MFA device for the AWS account
