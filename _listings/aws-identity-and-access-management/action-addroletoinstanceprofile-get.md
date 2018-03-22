@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddRoleToInstanceProfile&k=1:
+  /?Action=AddRoleToInstanceProfile:
     get:
       summary: ' Add Role To Instance Profile '
       description: Adds the specified IAM role to the specified instance profile
