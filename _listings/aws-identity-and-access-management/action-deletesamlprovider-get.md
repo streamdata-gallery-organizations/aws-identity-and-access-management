@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSAMLProvider&k=1:
+  /?Action=DeleteSAMLProvider:
     get:
       summary: ' Delete S A M L Provider '
       description: Deletes a SAML provider resource in IAM
