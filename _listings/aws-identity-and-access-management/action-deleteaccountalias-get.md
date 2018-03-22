@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAccountAlias&k=1:
+  /?Action=DeleteAccountAlias:
     get:
       summary: ' Delete Account Alias '
       description: Deletes the specified AWS account alias
