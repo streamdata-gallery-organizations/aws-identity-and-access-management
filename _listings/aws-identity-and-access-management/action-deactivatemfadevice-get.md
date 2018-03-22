@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeactivateMFADevice&k=1:
+  /?Action=DeactivateMFADevice:
     get:
       summary: ' Deactivate M F A Device '
       description: |-
