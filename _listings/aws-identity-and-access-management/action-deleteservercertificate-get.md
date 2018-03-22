@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteServerCertificate&k=1:
+  /?Action=DeleteServerCertificate:
     get:
       summary: ' Delete Server Certificate '
       description: Deletes the specified server certificate
