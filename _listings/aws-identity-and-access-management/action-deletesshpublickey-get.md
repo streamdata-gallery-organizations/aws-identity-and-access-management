@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSSHPublicKey&k=1:
+  /?Action=DeleteSSHPublicKey:
     get:
       summary: ' Delete S S H Public Key '
       description: Deletes the specified SSH public key
