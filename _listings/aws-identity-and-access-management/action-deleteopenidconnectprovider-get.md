@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteOpenIDConnectProvider&k=1:
+  /?Action=DeleteOpenIDConnectProvider:
     get:
       summary: ' Delete Open I D Connect Provider '
       description: Deletes an OpenID Connect identity provider (IdP) resource object
