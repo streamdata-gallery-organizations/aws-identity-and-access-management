@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSigningCertificate&k=1:
+  /?Action=DeleteSigningCertificate:
     get:
       summary: ' Delete Signing Certificate '
       description: Deletes a signing certificate associated with the specified IAM
