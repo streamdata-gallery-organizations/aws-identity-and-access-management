@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateServiceSpecificCredential&k=1:
+  /?Action=CreateServiceSpecificCredential:
     get:
       summary: ' Create Service Specific Credential '
       description: |-
