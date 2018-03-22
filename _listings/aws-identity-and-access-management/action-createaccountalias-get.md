@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateAccountAlias&k=1:
+  /?Action=CreateAccountAlias:
     get:
       summary: ' Create Account Alias '
       description: Creates an alias for your AWS account
