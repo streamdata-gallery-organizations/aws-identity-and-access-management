@@ -16,8 +16,8 @@ tags:
 - Identity
 - Authentication
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-identity-and-access-management/master/_listings/aws-identity-and-access-management/apis.yaml
 specificationVersion: "0.14"
 apis:
